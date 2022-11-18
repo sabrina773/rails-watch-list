@@ -2,6 +2,8 @@
 
 <h2>Bookmarks:</h2>
 
+
+
 <ul>
   <% @list.bookmarks.each do |bookmark| %>
     <li>
@@ -9,5 +11,3 @@
     </li>
   <% end %>
 </ul>
-
-<%= link_to('Create a bookmark', new_list_bookmark_path(@list)) %>
